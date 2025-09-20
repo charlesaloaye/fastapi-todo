@@ -29,13 +29,16 @@ This project demonstrates CRUD operations (Create, Read, Update, Delete) with a 
 
 ## 📂 Project Structure
 
+```text
 todo-app/
-├── database.py # Database connection & session
-├── models.py # SQLAlchemy models
-├── schemas.py # Pydantic schemas
-├── main.py # FastAPI routes
-├── requirements.txt # Dependencies
-└── README.md # Project documentation
+├── database.py       # Database connection & session
+├── models.py         # SQLAlchemy models
+├── schemas.py        # Pydantic schemas
+├── main.py           # FastAPI routes
+├── requirements.txt  # Dependencies
+└── README.md         # Project documentation
+
+```
 
 ---
 
