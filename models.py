@@ -1,6 +1,9 @@
-from database import Base
+from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String, Boolean, DateTime
 from datetime import datetime
+
+
+Base = declarative_base()
 
 
 class Todo(Base):

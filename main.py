@@ -1,22 +1,12 @@
 from fastapi import FastAPI, Depends, HTTPException, status
-from database import engine, Session, SessionLocal
+from database import engine, get_db
+from sqlalchemy.orm import Session
 import schemas
 import models
 from typing import List
 
 # Create all tables
 models.Base.metadata.create_all(engine)
-
-
-# create a db session
-
-
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
 
 
 # Create new instance of FastAPI
