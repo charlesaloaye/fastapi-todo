@@ -45,12 +45,11 @@ todo-app/
 ## ⚙️ Installation & Setup
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/charlesaloaye/fastapi-todo.git
    cd fastapi-todo
    ```
-
-````
 
 2. **Create & activate virtual environment**
 
@@ -97,4 +96,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 📜 License
 
 This project is licensed under the MIT License.
-````
+
+```
+
+```
