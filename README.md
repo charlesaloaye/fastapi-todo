@@ -29,13 +29,14 @@ This project demonstrates CRUD operations (Create, Read, Update, Delete) with a 
 
 ## 📂 Project Structure
 
-todo
-│── database.py # Database connection & session
-│── models.py # SQLAlchemy models
-│── schemas.py # Pydantic schemas
-│── main.py # FastAPI routes
-│── requirements.txt # Dependencies
-└── README.md # Project documentation
+````text
+todo-app/
+├── database.py       # Database connection & session
+├── models.py         # SQLAlchemy models
+├── schemas.py        # Pydantic schemas
+├── main.py           # FastAPI routes
+├── requirements.txt  # Dependencies
+└── README.md         # Project documentation
 
 ---
 
@@ -47,7 +48,7 @@ todo
    git clone https://github.com/charlesaloaye/fastapi-todo.git
    cd fastapi-todo
 
-   ```
+````
 
 2. **Create & activate virtual environment**
 
