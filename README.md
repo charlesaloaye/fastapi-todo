@@ -29,24 +29,23 @@ This project demonstrates CRUD operations (Create, Read, Update, Delete) with a 
 
 ## 📂 Project Structure
 
-````text
 todo-app/
-├── database.py       # Database connection & session
-├── models.py         # SQLAlchemy models
-├── schemas.py        # Pydantic schemas
-├── main.py           # FastAPI routes
-├── requirements.txt  # Dependencies
-└── README.md         # Project documentation
+├── database.py # Database connection & session
+├── models.py # SQLAlchemy models
+├── schemas.py # Pydantic schemas
+├── main.py # FastAPI routes
+├── requirements.txt # Dependencies
+└── README.md # Project documentation
 
 ---
 
 ## ⚙️ Installation & Setup
 
 1. **Clone the repository**
-
    ```bash
    git clone https://github.com/charlesaloaye/fastapi-todo.git
    cd fastapi-todo
+   ```
 
 ````
 
@@ -95,3 +94,4 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 📜 License
 
 This project is licensed under the MIT License.
+````
